@@ -13,7 +13,7 @@
   <body>
     <header>
       <div class="menu">
-        <img src="./assets/images/ico-menu.svg" alt="menu">
+        <img class="lines" src="./assets/images/ico-menu.svg" alt="menu">
       </div>
     </header>
     <main>
@@ -35,17 +35,26 @@
       <section>
         <div class="reasons">
           <h2 class="explication">3 reasons to purchase</h2>
-          <h5 class="explication-1">Ut sed metus</h5>
-          <p class="text-1">Lorem ipsum dolor sit amet, consecteur.</p>
-          <h5 class="explication-1">Curabitur ac erat</h5>
-          <p class="text-1">Mauris mattis urna quis lorem molestie.</p>
-          <h5 class="explication-1">Morbi dictum</h5>
-          <p class="text-1">Aliquam in dolor et dolor tincidunt.</p>
+          <div class="box">
+            <div>
+              <h5 class="explication-1">Ut sed metus</h5>
+              <p class="text-1">Lorem ipsum dolor sit amet, consecteur.</p>
+            </div>
+            <div> 
+              <h5 class="explication-1">Curabitur ac erat</h5>
+              <p class="text-1">Mauris mattis urna quis lorem molestie.</p>
+            </div> 
+            <div> 
+              <h5 class="explication-1">Morbi dictum</h5>
+              <p class="text-1">Aliquam in dolor et dolor tincidunt.</p>
+            </div>
+          </div>
           <a class="more-reasons" href="#">More reasons</a>
+          <a href="#"><img class="up-arrow" src="./assets/images/ico-arrow.svg" alt="flecha para arriba"></a>
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <ul class="footer-list">
         <li><a href="#">articles</a></li>
         <li><a href="#">books</a></li>
@@ -58,8 +67,10 @@
         <li><a href="#">instagram</a></li>
         <li><a href="#">mastodon.social</a></li>
       </ul>
-      <p class="date">©2022</p>
-      <p class="date">we &nbsp;<span class="heart">&#10084;</span>&nbsp; components</p>
+      <div class="copy">
+        <p class="date">©2022</p>
+        <p class="date">we &nbsp;<span class="heart">&#10084;</span>&nbsp; components</p>
+      </div>
     </footer>
   </body>
 </html>
