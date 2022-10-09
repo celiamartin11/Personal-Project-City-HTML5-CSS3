@@ -61,7 +61,7 @@ table {
     --blue: #0271bc;
     --dark-blue: #304268;
     --white: #fff; 
-    --light-blue: #8ccbea;
+    --light-blue: #2596be;
     --black: #000000;
     --light-black: #4a4a4a;
     --light-blue: #eff9ff;
@@ -132,7 +132,7 @@ table {
 .insomnia-tips{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: var(--black);
+    color: var(--dark-blue);
     margin-left: 15px;
     padding-bottom: 10px;
     padding-top: 70px;
@@ -263,3 +263,154 @@ footer a{
 .heart{
     color: var(--orange);
 }
+
+@media all and (min-width: 768px){
+    .menu{     
+        height: 40px;               
+    }
+    .main-section{/*IMAGEN*/
+        height: 768px;
+        width: 768px;
+        position: relative;
+        background-position: center;
+    }
+    .title{
+        font-size: 75px;
+        line-height: 1.4;
+        position: absolute;
+        bottom: 160px;
+        left: 0;
+    }
+    .sentence{
+        font-size: 24px;
+        position: absolute;
+        width: 345px;
+        bottom: 90px;
+        left: 28%;
+    }
+    .arrow{
+        position: absolute;
+        bottom: 40px;
+        left: 47.5%;
+    }
+    .section-2{
+        margin-top: -3%;
+        margin-left: 3%;
+        margin-bottom: -6%;
+    }
+    .looking{
+        padding-bottom: 40px;
+    }
+    .donec{
+        width: 600px;
+        /*MARGEN DERECHA*/
+    }
+    .go{
+        margin-top: -10px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;  
+    }
+    .reasons{
+        /*en linea*/
+        
+    }    
+    .explication-1{
+        font-size: 24px;
+    }   
+    .footer-list{
+        /*font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        color: var(--white);*/
+        width: 70%;
+       /* text-transform: uppercase;
+        line-height: 1.8;*/
+        display: flex;
+        align-items: center;
+        /*flex-direction: column;*/
+        /*margin-bottom: 50px;*/
+    }
+    .date{
+       /*color: var(--white);*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*line-height: 1.8;*/
+    }  
+}
+
+@media all and (min-width:1280px){
+    .menu{     
+        height: 40px;               
+    }
+    .main-section{
+        width: 100%;
+    }
+    .title{
+        font-size: 100px;
+        line-height: 1.5;
+        position: absolute;
+        bottom: 180px;
+        left: 300px;
+    }
+    .sentence{
+        font-size: 24px;
+        position: absolute;
+        width: 345px;
+        bottom: 90px;
+        left: 28%;
+    }
+    .arrow{
+        position: absolute;
+        bottom: 40px;
+        left: 47.5%;
+    }
+    .section-2{
+        margin-top: -3%;
+        margin-left: 3%;
+        margin-bottom: -6%;
+    }
+    .looking{
+        padding-bottom: 40px;
+    }
+    .donec{
+        width: 600px;
+        /*MARGEN DERECHA*/
+    }
+    .go{
+        margin-top: -10px;
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;  
+    }
+    .reasons{
+        /*en linea*/
+        
+    }    
+    .explication-1{
+        font-size: 24px;
+    }   
+    .footer-list{
+        /*font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        color: var(--white);*/
+        width: 70%;
+       /* text-transform: uppercase;
+        line-height: 1.8;*/
+        display: flex;
+        align-items: center;
+        /*flex-direction: column;*/
+        /*margin-bottom: 50px;*/
+    }
+    .date{
+       /*color: var(--white);*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*line-height: 1.8;*/
+    }  
+}
+
+
+
+
