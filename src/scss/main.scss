@@ -275,21 +275,20 @@ footer a{
         padding-bottom: 40px;
     }
     .donec{
-        width: 600px;
+        width: 619px;
+        
     }
     .go{
         margin-top: -10px;
         margin-left: 20px;
         padding-left: 30px;
         padding-right: 30px;  
-    }
-    .reasons{
-        display: grid;  
-    }    
+    } 
     .box{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 200px 200px 200px;
         place-content: center;
+        column-gap: 8%;
     }
     .explication{
         display: grid;
@@ -298,6 +297,9 @@ footer a{
     .explication-1{
         font-size: 24px;
     }   
+    .text-1{
+        width: 205px;
+    }
     .more-reasons{
         display: grid;
         place-content: center;
@@ -307,12 +309,12 @@ footer a{
     }
     .up-arrow{
         position: relative;
-        margin-bottom: -3%; 
-        margin-left: 4%;
+        margin-bottom: -45%; 
+        margin-left: -35%;
     }
     .footer{
-        display: flex;  
-        flex-direction: row-reverse; 
+        display: flex;   
+        flex-direction: row;
         justify-content: center;
     }
     .footer-list{
@@ -322,6 +324,7 @@ footer a{
     }
     .copy{
         width: 33%;
+        order: -1;
     }
     .date{
         display: flex;
@@ -370,19 +373,23 @@ footer a{
     .explication{
         font-size: 32px;
     }
+    .box{
+        display: grid;
+        grid-template-columns: 300px 300px 330px;
+        column-gap: 20%;
+    }
     .explication-1{
-        width: 340px;
+        font-size: 24px;
     }   
     .text-1{
-        width: 338px;
+        width: 340px;
     }
     .more-reasons{
-        margin: 43%;
         margin-top: 5%;
         margin-bottom: 2%;
     }
     .up-arrow{
-        margin-bottom: -1.4%; 
+        margin-bottom: -45.4%; 
     }
     .footer-list{
         width: 70%;       
