@@ -1,8 +1,38 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+/* FOOTER */
+
+.footer{
+  background-color: $darkBlue;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.link-footer{
+  color: $white;
+  text-decoration: none;
+}
+
+.footer-list{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  color: $white;
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.date{
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+}
+
+.heart{
+  color: $orange;
 }

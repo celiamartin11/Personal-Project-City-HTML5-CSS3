@@ -1,0 +1,56 @@
+/* 2 MÓDULO (REASONS) */
+
+
+.section-2{
+    padding-bottom: 14%;
+}
+
+.insomnia-tips{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: $darkBlue;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+
+.looking{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: $black;
+    text-transform: capitalize;
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+.donec{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: $lightBlack;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.5;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.go{
+    color: $orange;
+    background-color: $white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 22.5px;
+    border: $orange solid 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 10px;
+    &:hover{
+    transform: scale(2,2);
+    }
+}

@@ -1,5 +1,12 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+/* HEADER */
+
+
+.menu{
+  background-color: $blue;
+  width: 38px;
+  height: 25px; 
+  text-align: center; 
+  position: fixed;
+  top: -3px;
+  z-index: 1;
 }

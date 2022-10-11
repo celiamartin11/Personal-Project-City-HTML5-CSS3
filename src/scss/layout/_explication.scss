@@ -1,0 +1,66 @@
+/* 3 MÓDULO ( REASONS EXPLICATION) */
+
+
+.reasons{
+    background-color: $lightBlue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explication{
+    color: $black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+
+.explication-1{
+    color: $black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-1{
+    color: $black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    width: 200px;
+    line-height: 1.8;
+}
+
+.more-reasons{
+    color: $white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: $orange;
+    border-radius: 22.5px;
+    border: $orange solid 2px;
+    margin: 50px 50px;
+    padding: 10px 22px;
+    text-decoration: none;
+}
+
+.more-reasons:hover{
+    transform: scale(2,2);
+}
+
+.up-arrow{
+    background-color: $white;
+    border-radius: 50%;
+    padding: 12px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: -184%;
+    left: 44.8%;
+}
