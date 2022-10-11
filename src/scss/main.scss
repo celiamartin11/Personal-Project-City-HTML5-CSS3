@@ -5,8 +5,11 @@
 @import 'layout/reasons';
 @import 'layout/explication';
 @import 'layout/footer';
-/*@import 'pages/index';
+/*@import 'pages/index';*/
 
+html {
+    scroll-behavior: smooth;
+  }
 
 /* MODO TABLET */
 
