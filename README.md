@@ -12,4 +12,4 @@ Comenzamos con una **landing page**, la cual arriba a la derecha presenta un **e
 
 En las próximas secciones encontramos **dos botónes con un hover** que hace más grande el botón. En la **sección *"3 Reasons To Purchase"*** fue donde apliqué por primera vez un "display: **grid**" y las columnas junto con las dimensiones que requería este apartado. 
 
-Y para acabar, nos encontramos un **footer** más grande de lo normal, acompañado de **otro enlace** con una imagen de una flecha que indica "arriba" y que por lo tanto **te desplaza al inicio del proyecto.** ...
+Y para acabar, nos encontramos un **footer** más grande de lo normal, acompañado de **otro enlace** con una imagen de una flecha que indica "arriba" y que por lo tanto **te desplaza al inicio del proyecto.**
